@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Clínica VitalCare: atención médica integral, servicios de salud y profesionales comprometidos con tu bienestar.">
+    <title>Inicio | Clínica VitalCare</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+<header class="header">
+    <nav class="navbar container" aria-label="Navegación principal">
+        <a href="index.html" class="brand">
+            <img src="img/logo.svg" alt="">
+            <div>Clínica <span>VitalCare</span></div>
+        </a>
+
+        <button class="menu-toggle" id="menuButton"
+            aria-label="Abrir menu" aria-expanded="false"
+            aria-controls="navLinks">☰</button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a class="active" href="index.html">Inicio</a></li>
+            <li><a href="doctores.html">Doctores</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="ubicacion.html">Ubicación</a></li>
+            <li><a href="contactanos.html">Contáctanos</a></li>
+            <li><a class="nav-cta" href="accesopacientes.html">Portal pacientes</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="container hero-grid">
+            <div>
+                <div class="eyebrow">Tu salud, nuestra prioridad</div>
+                <h1>Cuidamos de ti en cada <span>etapa de tu vida.</span></h1>
+                <p>
+                    En Clínica VitalCare creemos que una buena atención médica
+                    comienza escuchándote. Nuestro equipo está comprometido con
+                    tu bienestar, con un trato humano y una atención responsable.
+                </p>
+
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="servicios.html">
+                        Conoce nuestros servicios →
+                    </a>
+                    <a class="btn btn-outline" href="doctores.html">
+                        Nuestro equipo
+                    </a>
+                </div>
+
+                <div class="hero-note">
+                    <span class="status-dot"></span>
+                    Atención cercana, humana y profesional.
+                </div>
+            </div>
+
+            <div>
+                <img class="hero-image"
+                    src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=1000&q=85"
+                    alt="Profesionales de salud trabajando en una clínica">
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="section-heading">
+                <div class="eyebrow">Nuestros servicios</div>
+                <h2>Atención médica pensada para ti</h2>
+                <p>
+                    Conoce algunas de las áreas que forman parte de nuestra
+                    propuesta de atención integral.
+                </p>
+            </div>
+
+            <div class="card-grid">
+                <article class="card">
+                    <div class="card-icon">🩺</div>
+                    <h3>Consulta general</h3>
+                    <p>Evaluación inicial, orientación médica y seguimiento
+                    de las necesidades generales de salud.</p>
+                    <a class="card-link" href="servicios.html">Más información →</a>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">❤️</div>
+                    <h3>Cardiología</h3>
+                    <p>Orientación y evaluación de la salud cardiovascular
+                    para promover el cuidado del corazón.</p>
+                    <a class="card-link" href="servicios.html">Más información →</a>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">🧪</div>
+                    <h3>Laboratorio clínico</h3>
+                    <p>Información sobre pruebas clínicas y su importancia
+                    en la evaluación de la salud.</p>
+                    <a class="card-link" href="servicios.html">Más información →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-light">
+        <div class="container two-column">
+            <div>
+                <img class="content-image"
+                    src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=900&q=85"
+                    alt="Doctor con bata médica">
+            </div>
+
+            <div>
+                <div class="eyebrow">Nuestro equipo</div>
+                <h2 style="color: var(--navy); font-size: 2.3rem; line-height: 1.25;">
+                    Profesionales comprometidos con tu bienestar
+                </h2>
+                <p class="mt-24">
+                    Conoce a los integrantes de nuestro equipo médico y descubre
+                    la importancia de recibir una atención cercana y responsable.
+                </p>
+
+                <ul class="feature-list">
+                    <li>Atención centrada en el paciente.</li>
+                    <li>Comunicación clara y respetuosa.</li>
+                    <li>Compromiso con el cuidado de la salud.</li>
+                </ul>
+
+                <a class="btn btn-primary" href="doctores.html">
+                    Conocer a los doctores →
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="section-heading">
+                <div class="eyebrow">¿Necesitas información?</div>
+                <h2>Estamos aquí para orientarte</h2>
+                <p>
+                    Consulta nuestra información de ubicación o contáctanos
+                    para conocer más sobre nuestros servicios.
+                </p>
+            </div>
+
+            <div class="card-grid">
+                <article class="card">
+                    <div class="card-icon">📍</div>
+                    <h3>Encuéntranos</h3>
+                    <p>Consulta la información de ubicación de la clínica.</p>
+                    <a class="card-link" href="ubicacion.html">Ver ubicación →</a>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">💬</div>
+                    <h3>Contáctanos</h3>
+                    <p>Visita nuestro formulario de contacto demostrativo.</p>
+                    <a class="card-link" href="contactanos.html">Ir a contacto →</a>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">🔐</div>
+                    <h3>Portal de pacientes</h3>
+                    <p>Conoce la interfaz demostrativa de acceso a pacientes.</p>
+                    <a class="card-link" href="accesopacientes.html">Acceder →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container cta-inner">
+            <div>
+                <h2>Tu bienestar merece atención.</h2>
+                <p>Conoce nuestros servicios y descubre nuestra propuesta de atención médica.</p>
+            </div>
+            <a class="btn btn-white" href="contactanos.html">Contáctanos →</a>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div>
+                <h3>Clínica VitalCare</h3>
+                <p>Una propuesta de atención médica basada en el respeto,
+                la responsabilidad y el bienestar.</p>
+            </div>
+            <div>
+                <h4>Enlaces rápidos</h4>
+                <ul class="footer-links">
+                    <li><a href="doctores.html">Nuestros doctores</a></li>
+                    <li><a href="servicios.html">Servicios médicos</a></li>
+                    <li><a href="ubicacion.html">Ubicación</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Atención</h4>
+                <ul class="footer-links">
+                    <li><a href="contactanos.html">Contáctanos</a></li>
+                    <li><a href="accesopacientes.html">Portal de pacientes</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © <span class="current-year"></span> Clínica VitalCare.
+            Proyecto académico de publicación web.
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
